@@ -5,3 +5,11 @@ schema_version = 1
 authors = ["Vaqxai <vaqxai@gmail.com>", "Pollux12"]
 description = "Adds support for the Garry's Mod Lua variant to Zed, complete with LSP support (lsp by Pollux12)"
 repository = "https://github.com/vaqxai/zed-glua"
+
+[grammars.lua]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-lua"
+rev = "10fe0054734eec83049514ea2e718b2a56acd0c9"
+
+[language_servers.glua-ls]
+name = "gmod-glua-ls"
+languages = ["GLua"]
